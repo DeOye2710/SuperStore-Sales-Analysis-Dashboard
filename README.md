@@ -3,10 +3,11 @@
 This project is a comprehensive Sales Performance Dashboard built in Microsoft Excel. It was developed as a personal portfolio project to demonstrate my ability to transform raw sales data into actionable business insights using advanced Excel features.
 The analysis focuses on sales performance across multiple years, regions, categories, and customer segments — providing a clear picture of revenue, profitability, and growth trends.
 The dataset came with set questions and i did well to answer the business questions, provide insights and recommendations.
-
+<img width="808" height="481" alt="Image" src="https://github.com/user-attachments/assets/a3fd5edc-b7af-4e6d-87d2-b5e6ff491001" />
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🎯 Objective
-The goal of this project was to analyze sales performance and profitability using Excel’s analytical capabilities. The dashboard allows users to interact with the data through slicers and filters to explore sales across year, region, category, and segment, and extract insights into:
+The major goal of this project was to analyze sales performance, growth and profitability using Excel’s analytical capabilities. It also required providing insights and recommendations on the top and bottom 10 performing cities
+The dashboard created allows users to interact with the data through slicers and filters to explore sales across year, region, category, and segment, and extract insights into:
 -Overall sales growth and profitability trends
 -Customer segmentation performance
 -Regional revenue and profit distribution
@@ -17,9 +18,14 @@ The goal of this project was to analyze sales performance and profitability usin
 -Imported and transformed raw data using Power Query for consistency and structure.
 -Cleaned missing or invalid values and standardized date and category fields.
 -Built relationships between data tables for accurate analysis.
-2. Data Modeling
+2. Data Modeling and EDA(Exploratory Data Analysis)
 -Created new calculated fields for KPIs such as Profit Margin, Total Sales, and Units Sold.
 -Aggregated sales and profit by region, category, segment, and year.
+-Created two tables containing informations on top and bottom 10 cities using excel functions like index,Match,Sum,Average and Filters in other to derive insights on them and provide recommendations.
+Top
+
+Bottom
+
 3. Dashboard Development
 Designed an interactive dashboard using:
  -Pivot Tables and Pivot Charts
@@ -44,6 +50,9 @@ The dashboard includes:
 -The West Region generated the highest sales, while the South Region showed the lowest profit margin.
 -Standard Class shipping dominated at 59% of total orders.
 -Among sales representatives, Organic recorded the highest revenue performance ($1.4M).
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Insights and Recommendations for Top & Bottom Cities
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🧰 Tools & Techniques Used
 Microsoft Excel – dashboard creation, analysis, and interactivity
